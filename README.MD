@@ -70,5 +70,6 @@ Make sure ports used for FastAPI service, PostGres and Redis CLI are free on you
 This setup assumes Docker and Docker Compose are installed and running on your machine.
 
 
+## Design Doc
 
 ![Diagram](design_doc.png)
