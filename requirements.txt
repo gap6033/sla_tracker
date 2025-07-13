@@ -1,0 +1,10 @@
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+sqlalchemy==2.0.30
+pydantic==2.7.1
+watchdog==4.0.0
+APScheduler==3.11.0
+psycopg2-binary==2.9.9  # PostgreSQL driver
+watchdog==4.0.0
+redis==6.2.0
+pydantic-settings==2.10.1

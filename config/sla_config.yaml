@@ -1,0 +1,21 @@
+customer_tier:
+  enterprise:
+    response_sla: 10s
+    resolution_sla: 20s
+    escalation_levels:
+      - level: L1        
+        notify: slack
+
+  business:
+    response_sla: 30s
+    resolution_sla: 40s
+    escalation_levels:
+      - level: L1         
+        notify: slack
+
+  basic:
+    response_sla: 50s
+    resolution_sla: 60s
+    escalation_levels:
+      - level: L1           
+        notify: slack
