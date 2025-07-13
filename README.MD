@@ -71,4 +71,4 @@ This setup assumes Docker and Docker Compose are installed and running on your m
 
 
 
-![Diagram](diagram.png)
+![Diagram](design_doc.png)
