@@ -40,7 +40,9 @@ POSTGRES_HOST=postgres
 
 ## Build and start containers
 
-docker-compose up --build
+docker-compose --build --no-cache
+docker-compose up
+
 
 This will start 3 services:
  - FastAPI app on port 8000
