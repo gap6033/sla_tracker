@@ -47,7 +47,9 @@ def start_sla_scheduler():
         trigger=IntervalTrigger(minutes=1),
         id="sla_check",
         name="Check SLA Clocks for Breaches",
-        replace_existing=True
+        replace_existing=True,
+        max_instances=1,
+        coalesce=True 
     )
     scheduler.start()
     logger.info("SLA scheduler started.")

@@ -68,8 +68,3 @@ docker exec -it sla_redis redis-cli
 Make sure ports used for FastAPI service, PostGres and Redis CLI are free on your host machine or adjust .env and docker-compose.yml accordingly.
 
 This setup assumes Docker and Docker Compose are installed and running on your machine.
-
-
-## Design Doc
-
-![Diagram](design_doc.png)
