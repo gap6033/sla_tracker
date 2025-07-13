@@ -20,16 +20,19 @@
 
 # Ticket State Management
 Current states: open, responded, closed
-Add support for:
-More granular states: new, triaged, assigned, waiting_for_customer, etc.
+There is no paused state
+More granular states can be added: new, triaged, assigned, waiting_for_customer, etc.
 A proper state transition engine
+Creation of sla clock segments
 
 # SLA Scheduler Service 
 - Currently, the background service runs every 1 minute. This means that the service has to process the alerts within 1 minute before next run commences. This could lead to delay in SLA breach detection
 
+# LoggingMiddleWare
+- Current service doesn't have a centralized logging middleware
+
+
 # Testing
 Adding unit tests and integration tests
 
-# LoggingMiddleWare
-- Current service doesn't have a centralized logging middleware
 
